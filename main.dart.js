@@ -90208,7 +90208,7 @@ if(q!=null)r.push(p.yE(p.ax,"Kcal",q,"kcal"))
 return A.cj(A.b([B.YY,B.P,A.aK1(r,8,8)],s),B.aP,B.v,B.N)},
 yE(a,b,c,d){var s,r,q,p,o,n=null
 if(c==null||c<=0){s=t.p
-return A.bL(A.cj(A.b([A.bL(A.iP(B.L,A.b([B.Ez,A.cj(A.b([A.au(b,n,n,n,n,B.AX,B.b9,n,n),B.At,B.ZO],s),B.y,B.v,B.ag)],s),B.k,B.by,n),64,64)],s),B.y,B.v,B.N),n,90)}r=a/c
+return A.bL(A.cj(A.b([A.bL(A.iP(B.L,A.b([B.Ez,A.cj(A.b([A.au(b,n,n,n,n,B.AX,B.b9,n,n),B.At,B.ZO],s),B.y,B.v,B.ag)],s),B.k,B.by,n),64,64)],s),B.y,B.v,B.N),n,80)}r=a/c
 q=B.d.fo(r,0,1)
 switch(b){case"Prote\xedna":p=B.Ou
 break
@@ -90219,7 +90219,7 @@ break
 case"Kcal":p=B.lb
 break
 default:p=B.fr}o=r>1?B.lb:p
-return A.bL(A.cj(A.b([A.bL(new A.w9(new A.aD(0,q,t.Y),new A.anf(this,o,A.aE(46,o.D()>>>16&255,o.D()>>>8&255,o.D()&255),b,a,c,d),B.o9,B.dS,n,n,t.HN),64,64)],t.p),B.y,B.v,B.N),n,90)}}
+return A.bL(A.cj(A.b([A.bL(new A.w9(new A.aD(0,q,t.Y),new A.anf(this,o,A.aE(46,o.D()>>>16&255,o.D()>>>8&255,o.D()&255),b,a,c,d),B.o9,B.dS,n,n,t.HN),64,64)],t.p),B.y,B.v,B.N),n,80)}}
 A.ank.prototype={
 $0(){this.a.f=!0},
 $S:0}
