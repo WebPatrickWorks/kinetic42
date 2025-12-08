@@ -90208,7 +90208,7 @@ if(q!=null)r.push(p.yE(p.ax,"Kcal",q,"kcal"))
 return A.cj(A.b([B.YY,B.P,A.aK1(r,8,8)],s),B.aP,B.v,B.N)},
 yE(a,b,c,d){var s,r,q,p,o,n=null
 if(c==null||c<=0){s=t.p
-return A.bL(A.cj(A.b([A.bL(A.iP(B.L,A.b([B.Ez,A.cj(A.b([A.au(b,n,n,n,n,B.AX,B.b9,n,n),B.At,B.ZO],s),B.y,B.v,B.ag)],s),B.k,B.by,n),64,64)],s),B.y,B.v,B.N),n,80)}r=a/c
+return A.bL(A.cj(A.b([A.bL(A.iP(B.L,A.b([B.Ez,A.cj(A.b([A.au(b,n,n,n,n,B.AX,B.b9,n,n),B.At,B.ZO],s),B.y,B.v,B.ag)],s),B.k,B.by,n),64,64)],s),B.y,B.v,B.N),n,85)}r=a/c
 q=B.d.fo(r,0,1)
 switch(b){case"Prote\xedna":p=B.Ou
 break
