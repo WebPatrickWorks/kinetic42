@@ -97803,7 +97803,9 @@ o=d.c
 if(o!=null)l.m(0,"Authorization","Bearer "+A.i(o))
 n=d.f
 if(n==null){o=t.N
-n=A.C(o,o)}m=A.el(b,0,null)
+n=A.C(o,o)}o=d.d
+if(o!=null){o.toString
+n.m(0,"redirect_to",o)}m=A.el(b,0,null)
 o=A.dn(m.gho(),t.N,t.z)
 o.X(0,n)
 s=3
@@ -97902,9 +97904,9 @@ A.agw.prototype={
 grm(){var s=this.r
 if(s===$){s!==$&&A.aa()
 s=this.r=new A.QE(this.f)}return s},
-v4(a,b){return this.a4z(a,b)},
-a4z(a,b){var s=0,r=A.u(t.W8),q,p=this,o,n,m,l,k,j,i,h,g
-var $async$v4=A.v(function(c,d){if(c===1)return A.q(d,r)
+v4(a,b,c){return this.a4z(a,b,c)},
+a4z(a,b,c){var s=0,r=A.u(t.W8),q,p=this,o,n,m,l,k,j,i,h,g
+var $async$v4=A.v(function(d,e){if(d===1)return A.q(e,r)
 while(true)switch(s){case 0:h=A.bs("response")
 s=p.at===B.jN?3:5
 break
@@ -97921,8 +97923,8 @@ l=t.N
 k=A.a5(["captcha_token",null],l,t.T)
 g=h
 s=7
-return A.n(n.mW(0,p.d+"/signup",B.jd,A.BS(A.a5(["email",a,"password",b,"data",null,"gotrue_meta_security",k,"code_challenge",m,"code_challenge_method",m!=null?"s256":null],l,t.z),p.e,null,null,null,null)),$async$v4)
-case 7:g.seg(d)
+return A.n(n.mW(0,p.d+"/signup",B.jd,A.BS(A.a5(["email",a,"password",c,"data",null,"gotrue_meta_security",k,"code_challenge",m,"code_challenge_method",m!=null?"s256":null],l,t.z),p.e,null,null,null,b)),$async$v4)
+case 7:g.seg(e)
 j=A.aMi(h.bh())
 i=j.a
 if(i!=null){p.pk(i)
@@ -100301,7 +100303,7 @@ p=4
 k=$.cK().b
 k===$&&A.b()
 s=7
-return A.n(k.gcQ().v4(B.c.bC(m.d.a.a),B.c.bC(m.e.a.a)),$async$BM)
+return A.n(k.gcQ().v4(B.c.bC(m.d.a.a),"https://webpatrickworks.github.io/kinetic42/",B.c.bC(m.e.a.a)),$async$BM)
 case 7:n.push(6)
 s=5
 break
